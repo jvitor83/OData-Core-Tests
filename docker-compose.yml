@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  dotnet.aspnetcore.webapi.odata.sample:
+    image: dotnetaspnetcorewebapiodatasample
+    build:
+      context: .
+      dockerfile: DotNet.AspNetCore.WebApi.OData.Sample/Dockerfile
